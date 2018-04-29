@@ -1,5 +1,7 @@
 # Kwote Loader
 
+Loads data into the [Kwotes](https://github.com/dmarkrollins/kwote) application.
+
 We had data in an access db that we needed to import - Access lets you easily dump data to XML so that is what we started with.
 
 Also the incoming Quote.body field was rich text so we needed to convert that as well to HTML to stuff into the DB etc.
